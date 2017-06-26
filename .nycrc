@@ -1,0 +1,12 @@
+{
+  "include": [
+    "lib/**/*.js"
+  ],
+  "require": [
+    "./spec/.config/bootstrap.js"
+  ],
+  "exclude": [
+    "./spec"
+  ],
+  "all": true
+}

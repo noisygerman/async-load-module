@@ -1,0 +1,26 @@
+{
+  "name": "async-load-module",
+  "version": "1.0.0",
+  "description": "Load CommonJs modules asynchronously, and without caching them",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "nyc mocha spec/test/**/*.test.js",
+    "tdd": "nyc mocha --watch spec/test/**/*.test.js"
+  },
+  "author": {
+    "name": "Markus Westerholz",
+    "email": "mwesterholz@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noisygerman/async-load-module.git"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "mock-fs": "^4.4.1",
+    "nyc": "^11.0.3"
+  }
+}
